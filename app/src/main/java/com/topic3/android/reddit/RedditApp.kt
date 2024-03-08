@@ -15,7 +15,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.unit.dp
 
-import com.topic3.android.reddit.appdrawer.AppDrawer
+//import com.topic3.android.reddit.appdrawer.AppDrawer
+import com.topic3.android.reddit.appdrawer2.AppDrawer
 import com.topic3.android.reddit.routing.RedditRouter
 import com.topic3.android.reddit.routing.Screen
 import com.topic3.android.reddit.screens.*

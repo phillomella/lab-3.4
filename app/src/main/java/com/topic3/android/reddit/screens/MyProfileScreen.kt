@@ -27,7 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintLayout
 import com.topic3.android.reddit.R
-import com.topic3.android.reddit.appdrawer.ProfileInfo
+import com.topic3.android.reddit.appdrawer2.ProfileInfo
 import com.topic3.android.reddit.components.PostAction
 import com.topic3.android.reddit.domain.model.PostModel
 import com.topic3.android.reddit.routing.MyProfileRouter
