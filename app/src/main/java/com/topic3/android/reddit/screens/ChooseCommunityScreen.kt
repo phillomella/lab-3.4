@@ -1,6 +1,7 @@
 package com.topic3.android.reddit.screens
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.height
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
@@ -9,6 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.topic3.android.reddit.R
@@ -21,7 +23,7 @@ private val defaultCommunities = listOf("raywenderlich", "androiddev", "puppies"
 
 @Composable
 fun ChooseCommunityScreen(viewModel: MainViewModel, modifier: Modifier = Modifier) {
-    //TODO Add your code here
+
 }
 
 @Composable
@@ -74,4 +76,14 @@ fun ChooseCommunityTopBar(modifier: Modifier = Modifier) {
             .height(48.dp)
             .background(Color.Blue)
     )
+}
+
+@Preview
+@Composable
+fun SearchedCommunitiesPreview(){
+    Column{
+        SearchedCommunities(defaultCommunities,
+            null,
+            Modifier)
+    }
 }
