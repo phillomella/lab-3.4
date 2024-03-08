@@ -1,6 +1,7 @@
 package com.topic3.android.reddit.components
 
 import androidx.compose.animation.animateColorAsState
+import androidx.compose.animation.core.updateTransition
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -42,6 +43,11 @@ fun JoinButton(onClick: (Boolean) -> Unit = {}){
         else
             Color.Blue
     )
+    val transition = updateTransition(
+        targetState = buttonState,
+        label = "JoinButtonTransition"
+    )
+
 
     val iconAssert: ImageVector =
         if (buttonState == JoinButtonState.PRESSED)
