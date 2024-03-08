@@ -50,4 +50,4 @@ private fun ToastContent(){
 @Preview(showBackground = true)
 @Composable
 fun JoinedToastPreview(){
-    JoinedToast(visible = true)
+    JoinedToast(visible = true)}
